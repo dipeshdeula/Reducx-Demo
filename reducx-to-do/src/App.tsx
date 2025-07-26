@@ -1,5 +1,6 @@
 import './App.css'
 import AddToDo from './Components/AddToDo'
+import  Login from './Components/Login'
 import Todos from './Components/Todos'
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
         <h1 className="text-4xl font-bold text-white text-center mb-8">To-Do List</h1>
         <AddToDo />
         <Todos />
+        <Login />
       </div>
     </div>
   )
